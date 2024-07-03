@@ -1,0 +1,7 @@
+brand,brand_model,storage_capacity,color,model_year,price,number_of_global_ratings,star_ratings,5 star,4 star,3 star,2 star,1 star
+Samsung,Galaxy S20 FE,128,Navy,2020,240.0,908,3.9,58,13,6,5,17
+,Unknown,128,Unknown,2021,437.99,1732,4.0,60,13,7,5,15
+Samsung,Galaxy S21 5G,128,Grey,2022,298.88,403,3.9,55,17,7,7,14
+Samsung,Galaxy S21 Ultra,128,Black,2022,469.99,246,3.8,56,15,6,4,19
+Samsung,Galaxy S22 ULTRA,128,Black,2023,618.0,781,4.0,60,14,6,5,16
+,Unknown,256,Black,2023,998.98,162,4.2,72,5,4,6,14

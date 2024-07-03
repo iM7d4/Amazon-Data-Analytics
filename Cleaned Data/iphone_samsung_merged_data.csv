@@ -1,0 +1,14 @@
+brand,brand_model,storage_capacity,color,model_year,price,number_of_global_ratings,star_ratings,5 star,4 star,3 star,2 star,1 star
+Apple,iPhone 12,64, Blue ,2020,440.0,18066,4.1,61,15,6,4,14
+Apple,iPhone 12 Pro Max,128, Pacific Blue ,2020,639.0,1346,4.1,65,12,7,2,15
+,iPhone 13,128, Midnight ,2021,638.0,2120,4.1,63,13,8,6,11
+Apple,iPhone 13 Pro,128, Gold ,2021,757.52,377,4.2,62,17,7,3,10
+Apple,iPhone 13 Pro Max,128, Sierra Blue ,2022,810.0,958,4.1,63,15,7,3,12
+Apple,iPhone 14 Pro,128, Space Black ,2022,1118.28,270,4.2,65,15,6,4,9
+Apple,iPhone 14 Pro Max,128, Deep Purple ,2022,1233.29,267,4.3,73,9,3,2,12
+Samsung,Galaxy S20 FE,128,Navy,2020,240.0,908,3.9,58,13,6,5,17
+,Unknown,128,Unknown,2021,437.99,1732,4.0,60,13,7,5,15
+Samsung,Galaxy S21 5G,128,Grey,2022,298.88,403,3.9,55,17,7,7,14
+Samsung,Galaxy S21 Ultra,128,Black,2022,469.99,246,3.8,56,15,6,4,19
+Samsung,Galaxy S22 ULTRA,128,Black,2023,618.0,781,4.0,60,14,6,5,16
+,Unknown,256,Black,2023,998.98,162,4.2,72,5,4,6,14

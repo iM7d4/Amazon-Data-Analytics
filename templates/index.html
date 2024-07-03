@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Amazon Mobiles Data Analytics</title>
+  <!-- Include the css and js for Sweet alert -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
+  <!-- <link rel="stylesheet" href="sweetalert2.min.css"> -->
+</head>
+
+
+<body>
+
+<!-- Start of the Container for Each Product -->
+  <div class="container">
+                                        <div class="row">
+                                          <div class="col-md-12 jumbotron text-center">
+                                            <h1>Analytics Dashboard</h1>
+                                            <p>Apple and Samsung on Amazon!</p>
+                                          </div>
+                                        </div>
+    
+    <div class="row">
+      <div class="col-md-12">
+        <div class="well">
+          <h5>Select Your Product</h5>
+          <select id="selDataset" onchange="optionProductChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading-custom">
+            <h3 class="panel-title">Product Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+    </div>
+      
+                      <!-- Products -->
+                      <div class="row">  
+                        <div class="col-md-6">
+                          <div id="pieProduct"></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div id="barProduct"></div>
+                        </div>
+                      </div>  
+
+
+
+<!-- Heading for brands -->
+                      <div class="row">
+                        <div class="col-md-12 jumbotron text-center">
+                          <h1>Compare Apple and Samsung</h1>
+                        </div>
+                      </div>
+
+
+      <!-- Price Bar Charts -->
+      <div class="row">                     
+        <div class="col-md-6">
+          <div id="applepricebar"></div>
+        </div>
+
+        <div class="col-md-6">
+          <div id="samsungpricebar"></div>
+        </div>
+
+      </div>
+      
+      
+       <!-- Brand Bar Charts  -->
+      
+    
+  <div class="row">                     
+            <div class="col-md-12">
+              <div id="brandbar"></div>
+            </div>
+    </div>
+
+    
+    
+    
+    <!-- Brand  Pie Charts -->
+    <div class="row">
+          <div class="col-md-6">
+            <div id="applepie"></div>
+          </div>
+
+
+          <div class="col-md-6">
+            <div id="samsungpie"></div>
+          </div>
+
+          <!-- Model Year Charts -->
+          <div class="row">
+            <div class="col-md-12">
+              <div id="lineChart"></div>
+            </div>
+          </div>
+
+
+          <!-- Brand Global Ratings with Price Bubble Charts -->
+          <div class="row">
+          <div class="col-md-12">
+            <div id="bubbleChart"></div>
+          </div>
+          </div>
+          
+    </div>
+
+    
+
+      <!-- End of first conainter -->
+  </div>
+
+ 
+
+
+
+<!-- End of the Container for Each Product -->
+
+
+
+
+
+
+
+                    
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.com/libraries/Chart.js"></script>
+  <script src="sweetalert2.min.js"></script>
+  <script src="static/js/app.js"></script>
+  
+  
+  
+
+
+
+</body>
+
+</html>
