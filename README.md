@@ -1,4 +1,11 @@
 # Amazon-Data-Analytics
+Craft a captivating project that blends the excitement of video games with the power of web scraping, data processing (ETL), and insightful data exploration (EDA).  Explore the vast world of Amazon using these techniques to unearth hidden treasures, transform raw data into valuable insights, and forge an engaging experience that merges the thrill of discovery with the power of data.
+
+### Introduction 
+
+As a global e-commerce giant and digital services provider, Amazon complements the tech experiences offered by both Samsung and iPhone.Together, the dynamic trio of Samsung, iPhone, and Amazon creates a seamless, interconnected digital experience. From the latest smartphones to smart home integration and effortless online shopping, this collaboration defines the modern intersection of technology and convenience.
+
+The Project integrates web scraping, ETL processes, and data visualizations using Beautiful Soup, Plotly.js, and Flask. The exploration focuses on Amazon, Apple, and Samsung products, offering insights into pricing, star ratings, and global ratings, presented through interactive charts and a dynamic dashboard.
 
 This ETL process for 'Amazon ETL & Visualizations' break into three deliverables.
 
