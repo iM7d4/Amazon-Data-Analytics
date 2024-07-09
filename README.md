@@ -2,7 +2,7 @@
 Craft a captivating project that blends the excitement of video games with the power of web scraping, data processing (ETL), and insightful data exploration (EDA).  Explore the vast world of Amazon using these techniques to unearth hidden treasures, transform raw data into valuable insights, and forge an engaging experience that merges the thrill of discovery with the power of data.
 
 ### Introduction 
-![Amazon](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdribbble.com%2Fshots%2F16765270-Amazon-Logo-Animation&psig=AOvVaw0ik7rjlVgnJR3G1zQchSxb&ust=1720587272988000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLDCvpyVmYcDFQAAAAAdAAAAABAQ)
+![Amazon]()
 As a global e-commerce giant and digital services provider, Amazon complements the tech experiences offered by both Samsung and iPhone.Together, the dynamic trio of Samsung, iPhone, and Amazon creates a seamless, interconnected digital experience. From the latest smartphones to smart home integration and effortless online shopping, this collaboration defines the modern intersection of technology and convenience.
 
 The Project integrates web scraping, ETL processes, and data visualizations using Beautiful Soup, Plotly.js, and Flask. The exploration focuses on Amazon, Apple, and Samsung products, offering insights into pricing, star ratings, and global ratings, presented through interactive charts and a dynamic dashboard.
@@ -15,7 +15,28 @@ Deliverable 2: Data Cleaning Using Jupyter Notebook.
 
 Deliverable 3: Flask-powered API & Data Visualizations Using Plotly.js
 
- 
+## Deliverable 1: Web Scaping Using Beautiful Soup
+
+This section includes web scrapping and analyzing the data using Beautiful soup and Pandas Python Data Analysis.
+
+ ### 1.1 Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+Python 3.6 or higher
+
+Beautiful Soup 4
+
+Requests (for making HTTP requests)
+
+Pandas (for data analysis)
+
+### 1.2 Data Sources
+
+We scrape data from the Amazon Website URLs for Apple & Samsung Smart Phones: [URLs}(https://github.com/iM7d4/Amazon-Data-Analytics/blob/main/ETL/List%20of%20URLs.txt)
+
+[Webpage structure](https://www.amazon.com/Apple-iPhone-14-Pro-Max/dp/B0BN94DL3R/?th=1)
+
 ## Key Insights
 
 Summary
