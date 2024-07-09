@@ -2,7 +2,7 @@
 Craft a captivating project that blends the excitement of video games with the power of web scraping, data processing (ETL), and insightful data exploration (EDA).  Explore the vast world of Amazon using these techniques to unearth hidden treasures, transform raw data into valuable insights, and forge an engaging experience that merges the thrill of discovery with the power of data.
 
 ### Introduction 
-![Amazon](images/logo.gif)
+![Amazon](images/logo.gif) <br>
 As a global e-commerce giant and digital services provider, Amazon complements the tech experiences offered by both Samsung and iPhone.Together, the dynamic trio of Samsung, iPhone, and Amazon creates a seamless, interconnected digital experience. From the latest smartphones to smart home integration and effortless online shopping, this collaboration defines the modern intersection of technology and convenience.
 
 The Project integrates web scraping, ETL processes, and data visualizations using Beautiful Soup, Plotly.js, and Flask. The exploration focuses on Amazon, Apple, and Samsung products, offering insights into pricing, star ratings, and global ratings, presented through interactive charts and a dynamic dashboard.
@@ -87,7 +87,7 @@ Creates new columns, including 'brand,' 'model_year,' and reorders columns with 
 
 Saves cleaned 'iphone_samsung_df' data to JSON and CSV files.
 
-![Merged Cleaned Data](images/merged_cleaned_data)
+![Merged Cleaned Data](images/merged_cleaned_data.png)
 
 ## Deliverable 3: Flask-powered API & Data Visualizations Using Plotly.js
 
@@ -160,24 +160,24 @@ Building Bar Chart for Product Star Ratings:
 Constructs a bar chart displaying the prices of Apple & Samsung phones.
 
 Bar chart displaying the distribution of star ratings for Samsung brand models.
-
+![Bar Chart](images/bar_chart.png)
 
 #### 3.3.4 Line Chart for Model Years
 
 
 Line chart showing the evolution of brand models over different model years for both Apple and Samsung with respect to price.
-
+![Line Chart](images/line_chart.png)
 
 #### 3.3.5 Bubble Chart for Global Ratings
 
 Bubble chart showing the relationship between global ratings, price, and brand models for both Apple and Samsung.
 
 The size of each bubble is determine by the corresponding overall "star_ratings".
-
+![Bubble Chart](images/bubble_chart.png)
 
 ### 3.3 Dashboard Layout
 
-![Product Dashboard](images/product_dashboard.png)
+![Product Dashboard](images/product_dashboard.png) <br>
 ![Brand Dashboard](images/brand_dashboard.png)
 
 ## Key Insights
